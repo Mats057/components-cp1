@@ -1,0 +1,1 @@
+Esse projeto faz parte do Checkpoint 1 - 2 Semestre de Web Development na FIAP, a ideia é treinar a componentização de itens com React
