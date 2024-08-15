@@ -2,9 +2,8 @@ import './Sobre.css'
 
 function Sobre(){
     return (
-        <>
-        <Header />
-        </>
+        <main>
+        </main>
     )
 }
 

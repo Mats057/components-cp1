@@ -3,9 +3,9 @@ import './Contato.css'
 
 function Contato(){
     return (
-        <>
-        <Header />
-        </>
+        <main>
+
+        </main>
     )   
 }
 

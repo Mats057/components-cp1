@@ -1,7 +1,9 @@
 import './App.css'
 import { Header } from './components/Header/Header'
+import Home from './pages/Home/Home'
 import Sobre from './pages/Sobre/Sobre'
 import Contato from './pages/Contato/Contato'
+import { Route, Routes } from 'react-router-dom'
 
 function App() {
 
