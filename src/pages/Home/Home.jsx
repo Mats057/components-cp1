@@ -1,4 +1,3 @@
-import { Button } from '../../components/Button/Button';
 import './Home.css';
 import HomeImg from '../../assets/homeImg.png';
 import { Card } from '../../components/Card/Card';
@@ -6,18 +5,12 @@ import Youtube from '../../assets/youtube.png';
 import Instagram from '../../assets/instagram.png';
 import TikTok from '../../assets/tiktok.png';
 import Facebook from '../../assets/facebook.png';
+import Inicio from '../../components/Inicio/Inicio';
 
 function Home() {
     return (
         <main>
-            <section className='inicio'>
-                <div className="inicio__content">
-                    <h1>Crie seus vídeos online</h1>
-                    <p>Transforme suas ideias em filmes memoráveis: onde a criatividade encontra a simplicidade.</p>
-                    <Button texto="Começar agora!" />
-                </div>
-                <img src={HomeImg} alt="Homem andando de skate" />
-            </section>
+            <Inicio titulo='Crie seus vídeos online' texto='Transforme suas ideias em filmes memoráveis: onde a criatividade encontra a simplicidade.' SobreImg={HomeImg} />
             <section className='cards'>
                 <Card
                     corFundo="#F1C2B0"
