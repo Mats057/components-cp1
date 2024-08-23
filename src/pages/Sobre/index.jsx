@@ -1,8 +1,10 @@
 import "./Sobre.css";
+
+import Inicio from "../../components/Inicio";
+import Plano from "../../components/Plano";
+import PlanoInfos from "../../components/PlanoInfos";
+
 import SobreImg from "../../assets/sobre.png";
-import Inicio from "../../components/Inicio/Inicio";
-import { Plano } from "../../components/Plano/Plano";
-import { PlanoInfos } from "../../components/PlanoInfos/PlanoInfos";
 
 function Sobre() {
   return (

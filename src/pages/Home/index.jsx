@@ -1,11 +1,13 @@
 import './Home.css';
+
+import { Card } from '../../components/Card';
+import Inicio from '../../components/Inicio';
+
 import HomeImg from '../../assets/homeImg.png';
-import { Card } from '../../components/Card/Card';
 import Youtube from '../../assets/youtube.png';
 import Instagram from '../../assets/instagram.png';
 import TikTok from '../../assets/tiktok.png';
 import Facebook from '../../assets/facebook.png';
-import Inicio from '../../components/Inicio/Inicio';
 
 function Home() {
     return (
@@ -35,7 +37,7 @@ function Home() {
                 />
                 <Card
                     corFundo="#6975E8"
-                    numero="01"
+                    numero="04"
                     titulo="Instagram"
                     descricao="Compartilhe suas histórias de maneira única e conquiste milhões de likes no Instagram utilizando Stories e Reels."
                     icone={Instagram}

@@ -1,8 +1,10 @@
-import './Plano.css';
 import PropTypes from 'prop-types';
+
+import './Plano.css';
+
 import PlanoVazio from '../../assets/planoVazio.png';
 
-export const Plano = ({ classe, titulo, btn, children }) => {
+const Plano = ({ classe, titulo, btn, children }) => {
     return (
         <div className={"plano " + classe}>
             <h2>{titulo}</h2>
@@ -20,5 +22,7 @@ Plano.propTypes = {
     classe: PropTypes.string,
     titulo: PropTypes.string.isRequired,
     btn: PropTypes.string.isRequired,
-    children: PropTypes.element
+    children: PropTypes.any
 };
+
+export default Plano;

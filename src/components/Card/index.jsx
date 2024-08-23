@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types';
+
 import './Card.css'
 
 export const Card = ({ corFundo, titulo, icone, numero, descricao }) => {
@@ -10,3 +12,11 @@ export const Card = ({ corFundo, titulo, icone, numero, descricao }) => {
         </div>
     )
 }
+
+Card.propTypes = {
+    corFundo: PropTypes.string.isRequired,
+    titulo: PropTypes.string.isRequired,
+    icone: PropTypes.any.isRequired,
+    numero: PropTypes.string.isRequired,
+    descricao: PropTypes.string.isRequired
+};

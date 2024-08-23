@@ -1,8 +1,10 @@
-import "./PlanoInfos.css";
 import PropTypes from "prop-types";
+
+import "./PlanoInfos.css";
+
 import Seta from "../../assets/seta.png";
 
-export const PlanoInfos = ({ titulo, quantidade, valor }) => {
+const PlanoInfos = ({ titulo, quantidade, valor }) => {
   return (
     <label className="userBenefits">
       <h3>{titulo}</h3>
@@ -19,3 +21,5 @@ PlanoInfos.propTypes = {
   quantidade: PropTypes.string.isRequired,
   valor: PropTypes.number.isRequired,
 };
+
+export default PlanoInfos;
